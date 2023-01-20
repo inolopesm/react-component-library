@@ -1,0 +1,29 @@
+{
+  "name": "@inolopesm/my-react-component-library",
+  "description": "My react component library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "rollup": "^3.10.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "dependencies": {
+    "rollup-plugin-dts": "^5.1.1"
+  }
+}
