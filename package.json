@@ -3,8 +3,8 @@
   "description": "My react component library",
   "version": "1.0.0",
   "license": "MIT",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./lib/es/index.js",
+  "types": "./lib/es/index.d.ts",
   "files": [
     "lib"
   ],
@@ -12,7 +12,6 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.27",
@@ -22,8 +21,5 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  },
-  "dependencies": {
-    "rollup-plugin-dts": "^5.1.1"
   }
 }
