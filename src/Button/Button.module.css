@@ -1,0 +1,21 @@
+.button {
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.contained {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+.outlined {
+  background-color: transparent;
+  border-color: #000000;
+  color: #000000;
+}

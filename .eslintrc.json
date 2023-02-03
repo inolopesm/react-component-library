@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "plugin:storybook/recommended",
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
